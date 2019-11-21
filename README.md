@@ -13,8 +13,8 @@ Have you had houseplants die because your cat decided they were tasty treats? Is
 1. Assuming you have the hardware, download the [Arduino IDE.](https://www.arduino.cc/en/main/software) 
 2. Clone this repository and use the IDE to tweak the values in the **USER CONFIGURABLES** section at the top of the main file.  
     * **timezone** - your time zone, used to accurately compute local time from UTC.
-    * **wl** - When you leave for work in the morning.
-    * **wr** - When you return from work in the evening.
+    * **wl** - When you leave for work in the morning in 24 hour time.
+    * **wr** - When you return from work in the evening in 24 hour time.
     * **discord_webhook** - A webhook URL the Plant Protector can use to message a discord server.
     * **timeServer[]** - An NTP server the Plant Protector can contact to get the current time.
     * **tol** - The tolerance before the sensor responds to a change. Low tol is good for short resting distances, while longer distances will require a bigger tol as the sensor loses accuracy over distance.
